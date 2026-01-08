@@ -8,7 +8,7 @@ from ultralytics import YOLO
 model_yolo = YOLO('runs/segment/train/weights/best.pt') 
 
 # 2. CONFIGURACIÓN DE DISPOSITIVO (Prueba con 0 y luego con 'cpu')
-DEVICE = 'cpu' # 0 para GPU MX230, 'cpu' para procesador
+DEVICE = 0 # 0 para GPU MX230, 'cpu' para procesador
 
 # 3. INICIALIZACIÓN DE WEBCAM
 cap = cv2.VideoCapture(0)
