@@ -1,0 +1,14 @@
+# Datasets y carpetas pesadas
+datasets/
+supervisely_person_clean_2667_img/
+runs/
+
+# Entornos virtuales
+vision_env/
+
+# Pesos de modelos (YOLO)
+*.pt
+
+# Archivos temporales o de sistema
+__pycache__/
+.DS_Store

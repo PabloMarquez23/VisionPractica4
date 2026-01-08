@@ -1,0 +1,6 @@
+path: /home/pablomar/Escritorio/Practica_Vision/datasets/person_data
+train: images
+val: images
+
+names:
+  0: person
